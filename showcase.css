@@ -1,0 +1,33 @@
+#footdisplay video {
+    float: right;
+    margin: 0.5rem 0 0.5rem 0.2rem;
+  }
+ 
+#body1{
+    background-image: url(./Asset/home.jpg) ;
+    width: 400px;
+    height:400px;
+  }
+
+#vs{
+    width:200px;
+    height:250px;
+    overflow:hidden;
+    text-align: right;
+}
+ #toppic {
+    width: 1200px;
+    height: 300px;
+    background-image: url(./Asset/officebuilding.jpg) ;
+ }
+ 
+
+  
+ 
+  
+ 
+  
+
+  
+  
+  

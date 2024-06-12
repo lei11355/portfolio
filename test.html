@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#newsletter {
+  background: white;
+  border: 1px dashed rgb(110, 78, 226);
+  border-radius: 1em;
+  margin: 0 1rem;
+  padding: .5rem 1rem;
+  text-align: right;
+}
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+  left: 60px;
+  right: 30px;
+  top: 30px;
+  bottom:300px;
+  z-index: 1;
+}
+div.absolute {
+  position:abolute ;
+  border: 3px solid #73AD21;
+  left: 60px;
+  right: 30px;
+  top: 30px;
+  bottom: 300px;
+  z-index: 1;
+}
+div.relative {
+  position: relative;
+  border: 3px solid #73AD21;
+  left: 60px;
+  right: 30px;
+  top: 30px;
+  bottom: 300px;
+  z-index: 1;
+}
+
+
+</style>
+</head>
+<body>
+
+<h2>position: static;</h2>
+
+<p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+<div class="static">
+<div class="static">
+This div element has position: static;
+</div>
+</div>
+<div class="relative">
+<div class="absolute">
+    This div element has position: aboslute;
+    </div>
+</div>
+<div class="static">
+<div class="relative">
+        This div element has position: relative;
+    </div>
+</div>
+
+<div style="text-align: right;">
+    <!-- <h1 id="Contact">Contact me </h1> -->
+    <video style="  width: 500px; height:250px;  overflow:hidden; text-align:right"  autoplay muted loop>  <source src="./onlinebank-1.mp4" ></source></video>
+
+
+
+</div>  
+<aside id="newsletter">
+    <h3>Newsletter</h3>
+    <form method="post" action="newsletter.php">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+      <button>Sign Up</button>
+    </form>
+    <p>Be the first to hear about our great offers.<br>
+      Sign up for our newsletter today!</p>
+  </aside>
+</body>
+</html>
+
+
